@@ -76,7 +76,7 @@ const Recipe = (props) => {
         >
           <DialogContent dividers={true}>
             <DialogContentText id="scroll-dialog-description" tabIndex={-1}>
-              This recipe includes:
+              This recipe contains:
             </DialogContentText>
             <List
               dense

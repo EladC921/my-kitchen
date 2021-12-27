@@ -20,6 +20,7 @@
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
   background: #7b1fa2;
 }

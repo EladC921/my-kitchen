@@ -184,7 +184,7 @@ const Recipes = () => {
         <header>
           <PageTitle>Recipes</PageTitle>
         </header>
-        <div style={{ margin: "auto" }}>
+        <div style={{ margin: "auto", width: "100%" }}>
           {/** Rendering the Recipe List Component */}
           <ListContainer>
             <RecipesList recipes={recipes} />

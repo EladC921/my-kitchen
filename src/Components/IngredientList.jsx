@@ -1,8 +1,6 @@
 import React from "react";
 //Components import
 import Ingredient from "./Ingredient";
-//Our css
-import "../css/cards.css";
 
 const IngredientList = (props) => {
   return (

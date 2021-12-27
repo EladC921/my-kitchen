@@ -121,7 +121,7 @@ const Ingredients = () => {
         <header>
           <PageTitle>Ingredients</PageTitle>
         </header>
-        <div style={{ margin: "auto" }}>
+        <div style={{ margin: "auto", width: "100%" }}>
           {/** Rendering the Ingredients List Component */}
           <ListContainer>
             <IngredientList ingredients={ingredients} />

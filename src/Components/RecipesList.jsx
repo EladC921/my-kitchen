@@ -1,8 +1,6 @@
 import React from "react";
 //Components import
 import Recipe from "./Recipe";
-//Our css
-import "../css/cards.css";
 
 const RecipesList = (props) => {
   return (

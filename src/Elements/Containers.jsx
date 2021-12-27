@@ -5,10 +5,14 @@ export const ListContainer = styled.div`
   flex-direction: row;
   overflow-x: auto;
   overflow-y: hidden;
-  max-width: 150vh;
+  max-width: 100%;
 
   & > div {
     padding: 15px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 100%;
   }
 `;
 
