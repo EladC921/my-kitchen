@@ -1,0 +1,67 @@
+header {
+  margin: 5% 0 0 0;
+}
+
+.homeContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.secondRow {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.secondRow div {
+  margin: auto;
+}
+
+.home-btn {
+  margin: auto;
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 30vh;
+  height: 30vh;
+}
+@media only screen and (max-width: 600px) {
+  .home-btn {
+    margin: auto;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 15px;
+    width: 25vh;
+    height: 25vh;
+  }
+
+  .homeContainer {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 25% 75%;
+  }
+
+  .secondRow {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1% 49% 49% 1%;
+  }
+}
+
+.home-btn:hover {
+  opacity: 0.9;
+  font-size: x-large;
+}
+
+.go-to-ing-btn {
+  background-color: #f49b64cc;
+}
+
+.go-to-rec-btn {
+  background-color: #7bd3bccd;
+}
